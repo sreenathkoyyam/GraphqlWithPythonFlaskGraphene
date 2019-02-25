@@ -42,5 +42,5 @@ Now the following command will setup the database, and start the server:
 
 ```
 Check your application in below URI
-[http://127.0.0.1:5000/graphql](http://127.0.0.1:5000/graphql)
-and run some queries!
+[http://127.0.0.1:5000/graphql]http://127.0.0.1:5000/graphql)
+and run some queries!(

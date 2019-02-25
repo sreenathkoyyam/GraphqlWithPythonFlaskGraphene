@@ -1,9 +1,12 @@
 from mongoengine import connect
 
-from models import Department, Employee, Task
-from resolvers.locationModel import Location
-from resolvers.rolesModel import Role
-connect('graphene-mongo-example', host='mongodb://127.0.0.1:27017', alias='default')
+from models.departmentModel import Department
+from models.employeeModel import Employee
+from models.taskModel import Task
+from models.locationModel import Location
+from models.rolesModel import Role
+from models.peopleModel import People
+connect('graphene-mongo', host='mongodb://127.0.0.1:27017', alias='default')
 
 
 def init_db():
@@ -18,8 +21,8 @@ def init_db():
     manager.save()
     koyyam = Location(name='koyyam')
     koyyam.save()
-    #Kannur = Location(name='Koyyam')
-    #Kannur.save()
+    sree = People(name='Sree',gender="M")
+    sree.save()
     engineer = Role(name='engineer')
     engineer.save()
 

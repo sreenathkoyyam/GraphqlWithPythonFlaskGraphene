@@ -1,5 +1,5 @@
 from graphene_mongo import  MongoengineObjectType
-from models import Employee as EmployeeModel
+from models.employeeModel import Employee as EmployeeModel
 from graphene.relay import Node
 
 

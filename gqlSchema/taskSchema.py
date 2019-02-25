@@ -1,6 +1,6 @@
 from graphene_mongo import  MongoengineObjectType
 
-from resolvers.taskModel import Task as TaskModel
+from models.taskModel import Task as TaskModel
 from graphene.relay import Node
 
 

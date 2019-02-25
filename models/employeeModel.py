@@ -4,10 +4,10 @@ from mongoengine.fields import (
     DateTimeField, EmbeddedDocumentField,
     ListField, ReferenceField, StringField,
 )
-from resolvers.locationModel import Location
-from resolvers.rolesModel import Role
-from resolvers.departmentModel import Department
-from resolvers.taskModel import Task
+from .locationModel import Location
+from .rolesModel import Role
+from .departmentModel import Department
+from .taskModel import Task
 
 class Employee(Document):
 

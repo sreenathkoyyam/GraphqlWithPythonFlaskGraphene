@@ -1,6 +1,6 @@
 from graphene_mongo import  MongoengineObjectType
 
-from resolvers.rolesModel import Role as RoleModel
+from models.rolesModel import Role as RoleModel
 from graphene.relay import Node
 
 class Role(MongoengineObjectType):
